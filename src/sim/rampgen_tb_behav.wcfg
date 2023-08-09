@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rampgen_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rampgen_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="107,238.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="108,812.001 ns"></ZoomEndTime>
+      <Cursor1Time time="107,870.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="146"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject type="array" fp_name="/rampgen_tb/frequency">
+      <obj_property name="ElementShortName">frequency[31:0]</obj_property>
+      <obj_property name="ObjectShortName">frequency[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rampgen_tb/amplitude">
+      <obj_property name="ElementShortName">amplitude[31:0]</obj_property>
+      <obj_property name="ObjectShortName">amplitude[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_ACLK">
+      <obj_property name="ElementShortName">M_AXIS_ACLK</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_ACLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_ARESETN">
+      <obj_property name="ElementShortName">M_AXIS_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rampgen_tb/M_AXIS_TDATA">
+      <obj_property name="ElementShortName">M_AXIS_TDATA[255:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TDATA[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3318">
+      <obj_property name="label">Channel 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[15]">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[14]">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[13]">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[12]">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[11]">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[10]">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[9]">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[8]">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[6]">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3301">
+      <obj_property name="label">channel 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[31]">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[30]">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[29]">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[28]">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[27]">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[26]">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[25]">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[24]">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[23]">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[22]">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[21]">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[20]">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[19]">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[18]">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[17]">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[16]">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3284">
+      <obj_property name="label">channel 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[47]">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">[47]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[46]">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">[46]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[45]">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">[45]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[44]">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">[44]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[43]">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">[43]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[42]">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">[42]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[41]">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">[41]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[40]">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">[40]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[39]">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">[39]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[38]">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[37]">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[36]">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[35]">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[34]">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[33]">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[32]">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3267">
+      <obj_property name="label">channel 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[63]">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">[63]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[62]">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">[62]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[61]">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[60]">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[59]">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[58]">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[57]">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[56]">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[55]">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[54]">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[53]">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[52]">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[51]">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[50]">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[49]">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[48]">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3250">
+      <obj_property name="label">channel 4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[79]">
+         <obj_property name="ElementShortName">[79]</obj_property>
+         <obj_property name="ObjectShortName">[79]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[78]">
+         <obj_property name="ElementShortName">[78]</obj_property>
+         <obj_property name="ObjectShortName">[78]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[77]">
+         <obj_property name="ElementShortName">[77]</obj_property>
+         <obj_property name="ObjectShortName">[77]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[76]">
+         <obj_property name="ElementShortName">[76]</obj_property>
+         <obj_property name="ObjectShortName">[76]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[75]">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">[75]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[74]">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">[74]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[73]">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">[73]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[72]">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">[72]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[71]">
+         <obj_property name="ElementShortName">[71]</obj_property>
+         <obj_property name="ObjectShortName">[71]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[70]">
+         <obj_property name="ElementShortName">[70]</obj_property>
+         <obj_property name="ObjectShortName">[70]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[69]">
+         <obj_property name="ElementShortName">[69]</obj_property>
+         <obj_property name="ObjectShortName">[69]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[68]">
+         <obj_property name="ElementShortName">[68]</obj_property>
+         <obj_property name="ObjectShortName">[68]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[67]">
+         <obj_property name="ElementShortName">[67]</obj_property>
+         <obj_property name="ObjectShortName">[67]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[66]">
+         <obj_property name="ElementShortName">[66]</obj_property>
+         <obj_property name="ObjectShortName">[66]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[65]">
+         <obj_property name="ElementShortName">[65]</obj_property>
+         <obj_property name="ObjectShortName">[65]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[64]">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">[64]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3233">
+      <obj_property name="label">Channel 5</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[95]">
+         <obj_property name="ElementShortName">[95]</obj_property>
+         <obj_property name="ObjectShortName">[95]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[94]">
+         <obj_property name="ElementShortName">[94]</obj_property>
+         <obj_property name="ObjectShortName">[94]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[93]">
+         <obj_property name="ElementShortName">[93]</obj_property>
+         <obj_property name="ObjectShortName">[93]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[92]">
+         <obj_property name="ElementShortName">[92]</obj_property>
+         <obj_property name="ObjectShortName">[92]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[91]">
+         <obj_property name="ElementShortName">[91]</obj_property>
+         <obj_property name="ObjectShortName">[91]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[90]">
+         <obj_property name="ElementShortName">[90]</obj_property>
+         <obj_property name="ObjectShortName">[90]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[89]">
+         <obj_property name="ElementShortName">[89]</obj_property>
+         <obj_property name="ObjectShortName">[89]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[88]">
+         <obj_property name="ElementShortName">[88]</obj_property>
+         <obj_property name="ObjectShortName">[88]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[87]">
+         <obj_property name="ElementShortName">[87]</obj_property>
+         <obj_property name="ObjectShortName">[87]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[86]">
+         <obj_property name="ElementShortName">[86]</obj_property>
+         <obj_property name="ObjectShortName">[86]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[85]">
+         <obj_property name="ElementShortName">[85]</obj_property>
+         <obj_property name="ObjectShortName">[85]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[84]">
+         <obj_property name="ElementShortName">[84]</obj_property>
+         <obj_property name="ObjectShortName">[84]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[83]">
+         <obj_property name="ElementShortName">[83]</obj_property>
+         <obj_property name="ObjectShortName">[83]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[82]">
+         <obj_property name="ElementShortName">[82]</obj_property>
+         <obj_property name="ObjectShortName">[82]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[81]">
+         <obj_property name="ElementShortName">[81]</obj_property>
+         <obj_property name="ObjectShortName">[81]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[80]">
+         <obj_property name="ElementShortName">[80]</obj_property>
+         <obj_property name="ObjectShortName">[80]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3216">
+      <obj_property name="label">channel 6</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[111]">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">[111]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[110]">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">[110]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[109]">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">[109]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[108]">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">[108]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[107]">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">[107]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[106]">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">[106]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[105]">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">[105]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[104]">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">[104]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[103]">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">[103]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[102]">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">[102]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[101]">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">[101]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[100]">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">[100]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[99]">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">[99]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[98]">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">[98]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[97]">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">[97]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[96]">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">[96]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3199">
+      <obj_property name="label">channel 7</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[127]">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">[127]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[126]">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">[126]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[125]">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">[125]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[124]">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">[124]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[123]">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">[123]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[122]">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">[122]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[121]">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">[121]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[120]">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">[120]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[119]">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">[119]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[118]">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">[118]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[117]">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">[117]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[116]">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">[116]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[115]">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">[115]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[114]">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">[114]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[113]">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">[113]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[112]">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">[112]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3182">
+      <obj_property name="label">channel 8</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[143]">
+         <obj_property name="ElementShortName">[143]</obj_property>
+         <obj_property name="ObjectShortName">[143]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[142]">
+         <obj_property name="ElementShortName">[142]</obj_property>
+         <obj_property name="ObjectShortName">[142]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[141]">
+         <obj_property name="ElementShortName">[141]</obj_property>
+         <obj_property name="ObjectShortName">[141]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[140]">
+         <obj_property name="ElementShortName">[140]</obj_property>
+         <obj_property name="ObjectShortName">[140]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[139]">
+         <obj_property name="ElementShortName">[139]</obj_property>
+         <obj_property name="ObjectShortName">[139]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[138]">
+         <obj_property name="ElementShortName">[138]</obj_property>
+         <obj_property name="ObjectShortName">[138]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[137]">
+         <obj_property name="ElementShortName">[137]</obj_property>
+         <obj_property name="ObjectShortName">[137]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[136]">
+         <obj_property name="ElementShortName">[136]</obj_property>
+         <obj_property name="ObjectShortName">[136]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[135]">
+         <obj_property name="ElementShortName">[135]</obj_property>
+         <obj_property name="ObjectShortName">[135]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[134]">
+         <obj_property name="ElementShortName">[134]</obj_property>
+         <obj_property name="ObjectShortName">[134]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[133]">
+         <obj_property name="ElementShortName">[133]</obj_property>
+         <obj_property name="ObjectShortName">[133]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[132]">
+         <obj_property name="ElementShortName">[132]</obj_property>
+         <obj_property name="ObjectShortName">[132]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[131]">
+         <obj_property name="ElementShortName">[131]</obj_property>
+         <obj_property name="ObjectShortName">[131]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[130]">
+         <obj_property name="ElementShortName">[130]</obj_property>
+         <obj_property name="ObjectShortName">[130]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[129]">
+         <obj_property name="ElementShortName">[129]</obj_property>
+         <obj_property name="ObjectShortName">[129]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[128]">
+         <obj_property name="ElementShortName">[128]</obj_property>
+         <obj_property name="ObjectShortName">[128]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3165">
+      <obj_property name="label">Channel 9</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[159]">
+         <obj_property name="ElementShortName">[159]</obj_property>
+         <obj_property name="ObjectShortName">[159]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[158]">
+         <obj_property name="ElementShortName">[158]</obj_property>
+         <obj_property name="ObjectShortName">[158]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[157]">
+         <obj_property name="ElementShortName">[157]</obj_property>
+         <obj_property name="ObjectShortName">[157]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[156]">
+         <obj_property name="ElementShortName">[156]</obj_property>
+         <obj_property name="ObjectShortName">[156]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[155]">
+         <obj_property name="ElementShortName">[155]</obj_property>
+         <obj_property name="ObjectShortName">[155]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[154]">
+         <obj_property name="ElementShortName">[154]</obj_property>
+         <obj_property name="ObjectShortName">[154]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[153]">
+         <obj_property name="ElementShortName">[153]</obj_property>
+         <obj_property name="ObjectShortName">[153]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[152]">
+         <obj_property name="ElementShortName">[152]</obj_property>
+         <obj_property name="ObjectShortName">[152]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[151]">
+         <obj_property name="ElementShortName">[151]</obj_property>
+         <obj_property name="ObjectShortName">[151]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[150]">
+         <obj_property name="ElementShortName">[150]</obj_property>
+         <obj_property name="ObjectShortName">[150]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[149]">
+         <obj_property name="ElementShortName">[149]</obj_property>
+         <obj_property name="ObjectShortName">[149]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[148]">
+         <obj_property name="ElementShortName">[148]</obj_property>
+         <obj_property name="ObjectShortName">[148]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[147]">
+         <obj_property name="ElementShortName">[147]</obj_property>
+         <obj_property name="ObjectShortName">[147]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[146]">
+         <obj_property name="ElementShortName">[146]</obj_property>
+         <obj_property name="ObjectShortName">[146]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[145]">
+         <obj_property name="ElementShortName">[145]</obj_property>
+         <obj_property name="ObjectShortName">[145]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[144]">
+         <obj_property name="ElementShortName">[144]</obj_property>
+         <obj_property name="ObjectShortName">[144]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3148">
+      <obj_property name="label">Channel 10</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[175]">
+         <obj_property name="ElementShortName">[175]</obj_property>
+         <obj_property name="ObjectShortName">[175]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[174]">
+         <obj_property name="ElementShortName">[174]</obj_property>
+         <obj_property name="ObjectShortName">[174]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[173]">
+         <obj_property name="ElementShortName">[173]</obj_property>
+         <obj_property name="ObjectShortName">[173]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[172]">
+         <obj_property name="ElementShortName">[172]</obj_property>
+         <obj_property name="ObjectShortName">[172]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[171]">
+         <obj_property name="ElementShortName">[171]</obj_property>
+         <obj_property name="ObjectShortName">[171]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[170]">
+         <obj_property name="ElementShortName">[170]</obj_property>
+         <obj_property name="ObjectShortName">[170]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[169]">
+         <obj_property name="ElementShortName">[169]</obj_property>
+         <obj_property name="ObjectShortName">[169]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[168]">
+         <obj_property name="ElementShortName">[168]</obj_property>
+         <obj_property name="ObjectShortName">[168]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[167]">
+         <obj_property name="ElementShortName">[167]</obj_property>
+         <obj_property name="ObjectShortName">[167]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[166]">
+         <obj_property name="ElementShortName">[166]</obj_property>
+         <obj_property name="ObjectShortName">[166]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[165]">
+         <obj_property name="ElementShortName">[165]</obj_property>
+         <obj_property name="ObjectShortName">[165]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[164]">
+         <obj_property name="ElementShortName">[164]</obj_property>
+         <obj_property name="ObjectShortName">[164]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[163]">
+         <obj_property name="ElementShortName">[163]</obj_property>
+         <obj_property name="ObjectShortName">[163]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[162]">
+         <obj_property name="ElementShortName">[162]</obj_property>
+         <obj_property name="ObjectShortName">[162]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[161]">
+         <obj_property name="ElementShortName">[161]</obj_property>
+         <obj_property name="ObjectShortName">[161]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[160]">
+         <obj_property name="ElementShortName">[160]</obj_property>
+         <obj_property name="ObjectShortName">[160]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3131">
+      <obj_property name="label">Channel 11</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[191]">
+         <obj_property name="ElementShortName">[191]</obj_property>
+         <obj_property name="ObjectShortName">[191]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[190]">
+         <obj_property name="ElementShortName">[190]</obj_property>
+         <obj_property name="ObjectShortName">[190]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[189]">
+         <obj_property name="ElementShortName">[189]</obj_property>
+         <obj_property name="ObjectShortName">[189]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[188]">
+         <obj_property name="ElementShortName">[188]</obj_property>
+         <obj_property name="ObjectShortName">[188]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[187]">
+         <obj_property name="ElementShortName">[187]</obj_property>
+         <obj_property name="ObjectShortName">[187]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[186]">
+         <obj_property name="ElementShortName">[186]</obj_property>
+         <obj_property name="ObjectShortName">[186]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[185]">
+         <obj_property name="ElementShortName">[185]</obj_property>
+         <obj_property name="ObjectShortName">[185]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[184]">
+         <obj_property name="ElementShortName">[184]</obj_property>
+         <obj_property name="ObjectShortName">[184]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[183]">
+         <obj_property name="ElementShortName">[183]</obj_property>
+         <obj_property name="ObjectShortName">[183]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[182]">
+         <obj_property name="ElementShortName">[182]</obj_property>
+         <obj_property name="ObjectShortName">[182]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[181]">
+         <obj_property name="ElementShortName">[181]</obj_property>
+         <obj_property name="ObjectShortName">[181]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[180]">
+         <obj_property name="ElementShortName">[180]</obj_property>
+         <obj_property name="ObjectShortName">[180]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[179]">
+         <obj_property name="ElementShortName">[179]</obj_property>
+         <obj_property name="ObjectShortName">[179]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[178]">
+         <obj_property name="ElementShortName">[178]</obj_property>
+         <obj_property name="ObjectShortName">[178]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[177]">
+         <obj_property name="ElementShortName">[177]</obj_property>
+         <obj_property name="ObjectShortName">[177]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[176]">
+         <obj_property name="ElementShortName">[176]</obj_property>
+         <obj_property name="ObjectShortName">[176]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3114">
+      <obj_property name="label">channel 12</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[207]">
+         <obj_property name="ElementShortName">[207]</obj_property>
+         <obj_property name="ObjectShortName">[207]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[206]">
+         <obj_property name="ElementShortName">[206]</obj_property>
+         <obj_property name="ObjectShortName">[206]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[205]">
+         <obj_property name="ElementShortName">[205]</obj_property>
+         <obj_property name="ObjectShortName">[205]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[204]">
+         <obj_property name="ElementShortName">[204]</obj_property>
+         <obj_property name="ObjectShortName">[204]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[203]">
+         <obj_property name="ElementShortName">[203]</obj_property>
+         <obj_property name="ObjectShortName">[203]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[202]">
+         <obj_property name="ElementShortName">[202]</obj_property>
+         <obj_property name="ObjectShortName">[202]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[201]">
+         <obj_property name="ElementShortName">[201]</obj_property>
+         <obj_property name="ObjectShortName">[201]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[200]">
+         <obj_property name="ElementShortName">[200]</obj_property>
+         <obj_property name="ObjectShortName">[200]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[199]">
+         <obj_property name="ElementShortName">[199]</obj_property>
+         <obj_property name="ObjectShortName">[199]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[198]">
+         <obj_property name="ElementShortName">[198]</obj_property>
+         <obj_property name="ObjectShortName">[198]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[197]">
+         <obj_property name="ElementShortName">[197]</obj_property>
+         <obj_property name="ObjectShortName">[197]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[196]">
+         <obj_property name="ElementShortName">[196]</obj_property>
+         <obj_property name="ObjectShortName">[196]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[195]">
+         <obj_property name="ElementShortName">[195]</obj_property>
+         <obj_property name="ObjectShortName">[195]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[194]">
+         <obj_property name="ElementShortName">[194]</obj_property>
+         <obj_property name="ObjectShortName">[194]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[193]">
+         <obj_property name="ElementShortName">[193]</obj_property>
+         <obj_property name="ObjectShortName">[193]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[192]">
+         <obj_property name="ElementShortName">[192]</obj_property>
+         <obj_property name="ObjectShortName">[192]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3097">
+      <obj_property name="label">Channel 13</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[223]">
+         <obj_property name="ElementShortName">[223]</obj_property>
+         <obj_property name="ObjectShortName">[223]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[222]">
+         <obj_property name="ElementShortName">[222]</obj_property>
+         <obj_property name="ObjectShortName">[222]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[221]">
+         <obj_property name="ElementShortName">[221]</obj_property>
+         <obj_property name="ObjectShortName">[221]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[220]">
+         <obj_property name="ElementShortName">[220]</obj_property>
+         <obj_property name="ObjectShortName">[220]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[219]">
+         <obj_property name="ElementShortName">[219]</obj_property>
+         <obj_property name="ObjectShortName">[219]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[218]">
+         <obj_property name="ElementShortName">[218]</obj_property>
+         <obj_property name="ObjectShortName">[218]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[217]">
+         <obj_property name="ElementShortName">[217]</obj_property>
+         <obj_property name="ObjectShortName">[217]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[216]">
+         <obj_property name="ElementShortName">[216]</obj_property>
+         <obj_property name="ObjectShortName">[216]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[215]">
+         <obj_property name="ElementShortName">[215]</obj_property>
+         <obj_property name="ObjectShortName">[215]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[214]">
+         <obj_property name="ElementShortName">[214]</obj_property>
+         <obj_property name="ObjectShortName">[214]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[213]">
+         <obj_property name="ElementShortName">[213]</obj_property>
+         <obj_property name="ObjectShortName">[213]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[212]">
+         <obj_property name="ElementShortName">[212]</obj_property>
+         <obj_property name="ObjectShortName">[212]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[211]">
+         <obj_property name="ElementShortName">[211]</obj_property>
+         <obj_property name="ObjectShortName">[211]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[210]">
+         <obj_property name="ElementShortName">[210]</obj_property>
+         <obj_property name="ObjectShortName">[210]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[209]">
+         <obj_property name="ElementShortName">[209]</obj_property>
+         <obj_property name="ObjectShortName">[209]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[208]">
+         <obj_property name="ElementShortName">[208]</obj_property>
+         <obj_property name="ObjectShortName">[208]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus3080">
+      <obj_property name="label">Channel 14</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[239]">
+         <obj_property name="ElementShortName">[239]</obj_property>
+         <obj_property name="ObjectShortName">[239]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[238]">
+         <obj_property name="ElementShortName">[238]</obj_property>
+         <obj_property name="ObjectShortName">[238]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[237]">
+         <obj_property name="ElementShortName">[237]</obj_property>
+         <obj_property name="ObjectShortName">[237]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[236]">
+         <obj_property name="ElementShortName">[236]</obj_property>
+         <obj_property name="ObjectShortName">[236]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[235]">
+         <obj_property name="ElementShortName">[235]</obj_property>
+         <obj_property name="ObjectShortName">[235]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[234]">
+         <obj_property name="ElementShortName">[234]</obj_property>
+         <obj_property name="ObjectShortName">[234]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[233]">
+         <obj_property name="ElementShortName">[233]</obj_property>
+         <obj_property name="ObjectShortName">[233]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[232]">
+         <obj_property name="ElementShortName">[232]</obj_property>
+         <obj_property name="ObjectShortName">[232]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[231]">
+         <obj_property name="ElementShortName">[231]</obj_property>
+         <obj_property name="ObjectShortName">[231]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[230]">
+         <obj_property name="ElementShortName">[230]</obj_property>
+         <obj_property name="ObjectShortName">[230]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[229]">
+         <obj_property name="ElementShortName">[229]</obj_property>
+         <obj_property name="ObjectShortName">[229]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[228]">
+         <obj_property name="ElementShortName">[228]</obj_property>
+         <obj_property name="ObjectShortName">[228]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[227]">
+         <obj_property name="ElementShortName">[227]</obj_property>
+         <obj_property name="ObjectShortName">[227]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[226]">
+         <obj_property name="ElementShortName">[226]</obj_property>
+         <obj_property name="ObjectShortName">[226]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[225]">
+         <obj_property name="ElementShortName">[225]</obj_property>
+         <obj_property name="ObjectShortName">[225]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[224]">
+         <obj_property name="ElementShortName">[224]</obj_property>
+         <obj_property name="ObjectShortName">[224]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus2765">
+      <obj_property name="label">Channel 15</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[255]">
+         <obj_property name="ElementShortName">[255]</obj_property>
+         <obj_property name="ObjectShortName">[255]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[254]">
+         <obj_property name="ElementShortName">[254]</obj_property>
+         <obj_property name="ObjectShortName">[254]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[253]">
+         <obj_property name="ElementShortName">[253]</obj_property>
+         <obj_property name="ObjectShortName">[253]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[252]">
+         <obj_property name="ElementShortName">[252]</obj_property>
+         <obj_property name="ObjectShortName">[252]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[251]">
+         <obj_property name="ElementShortName">[251]</obj_property>
+         <obj_property name="ObjectShortName">[251]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[250]">
+         <obj_property name="ElementShortName">[250]</obj_property>
+         <obj_property name="ObjectShortName">[250]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[249]">
+         <obj_property name="ElementShortName">[249]</obj_property>
+         <obj_property name="ObjectShortName">[249]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[248]">
+         <obj_property name="ElementShortName">[248]</obj_property>
+         <obj_property name="ObjectShortName">[248]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[247]">
+         <obj_property name="ElementShortName">[247]</obj_property>
+         <obj_property name="ObjectShortName">[247]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[246]">
+         <obj_property name="ElementShortName">[246]</obj_property>
+         <obj_property name="ObjectShortName">[246]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[245]">
+         <obj_property name="ElementShortName">[245]</obj_property>
+         <obj_property name="ObjectShortName">[245]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[244]">
+         <obj_property name="ElementShortName">[244]</obj_property>
+         <obj_property name="ObjectShortName">[244]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[243]">
+         <obj_property name="ElementShortName">[243]</obj_property>
+         <obj_property name="ObjectShortName">[243]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[242]">
+         <obj_property name="ElementShortName">[242]</obj_property>
+         <obj_property name="ObjectShortName">[242]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[241]">
+         <obj_property name="ElementShortName">[241]</obj_property>
+         <obj_property name="ObjectShortName">[241]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TDATA[240]">
+         <obj_property name="ElementShortName">[240]</obj_property>
+         <obj_property name="ObjectShortName">[240]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TLAST">
+      <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TVALID">
+      <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rampgen_tb/M_AXIS_TREADY">
+      <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+   </wvobject>
+</wave_config>
