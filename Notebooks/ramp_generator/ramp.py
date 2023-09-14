@@ -4,7 +4,7 @@ from pynq import PL, Overlay
 class RampGenerator():
     """requires a base overlay object as an argument.
     """
-    def __init__(self,f=1e9, overlay='main.bit',):
+    def __init__(self,f = 1e9, a = 1.0, overlay='main.bit',):
         self._overlay = Overlay(overlay)
         ramp_gen_mmio= MMIO(PL.ip_dict["ramp_params"]['phys_addr'],
                                     PL.ip_dict["ramp_params"]['addr_range'])
@@ -16,7 +16,7 @@ class RampGenerator():
         # That corresponds to a period of:
         self._clk_period = 1 / self._clk_freq
         
-        # This can be used to add amultiplicative factor in case there is interpolation (2x 3x etc...)
+        # Yes data is still interpolated 1:2 therefore the period for data is:
         self._data_actual_period = self._clk_period
         
         # The DDS accumulator runs at 32 bits
@@ -29,6 +29,7 @@ class RampGenerator():
         # rearranging...
         # increment = round (_data_actual_period * f * _DDS_scale_factor)
         self.frequency = f
+        self.amplitude = a
         
     
     @property
@@ -46,3 +47,18 @@ class RampGenerator():
             raise ValueError("frequency is too large")
         self._ram[0] = increment
         self._f = increment / (self._data_actual_period * self._DDS_scale_factor)
+    
+    @property
+    def amplitude(self):
+        return self._a * 1/(2**16-1)
+    
+    @property
+    def amplitude_mu(self):
+        return self._a
+    
+    @amplitude.setter
+    def amplitude(self,a):
+        self._a = int(a * (2**16-1))
+        if (self._a > (2**16-1) or self._a < 0):
+            raise ValueError("Amplitude range is 0.0 to 1.0")
+        self._ram[2] = self._a

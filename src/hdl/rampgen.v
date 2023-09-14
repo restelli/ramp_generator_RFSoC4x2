@@ -56,6 +56,8 @@ module rampgen
   wire [31:0] offset [0:15];
   reg  [31:0] offset_r [0:15];
   reg [31:0] value [0:15];
+  reg [47:0] value_scaled [0:15];
+  reg [15:0] value_shifted [0:15];
   reg [C_S_AXIS_TDATA_WIDTH-1 : 0] axis_data_r;
   integer n;
   
@@ -75,7 +77,7 @@ module rampgen
   assign  offset[12] = 32'hC * frequency;
   assign  offset[13] = 32'hD * frequency;
   assign  offset[14] = 32'hE * frequency;
-  assign  offset[15] = 32'hF * frequency;  
+  assign  offset[15] = 32'hE * frequency;  
   
   
   
@@ -111,7 +113,9 @@ assign M_AXIS_TLAST = 1'b0;
                 begin            
                   offset_r[i] <= offset[i];
                   value[i] <= accumulator + offset_r[i];
-                  axis_data_r [i*16 +:16] <= {value[i] [31:18], 1'b0, 1'b0};
+                  value_scaled[i]<= value[i] * {amplitude[15:0]};
+                  value_shifted[i]<= value_scaled[i][47:32] + 16'h8000; 
+                  axis_data_r [i*16 +:16] <= {value_shifted[i] [15:2], 1'b0, 1'b0};
                 end
             end
             else

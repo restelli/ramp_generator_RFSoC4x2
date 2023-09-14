@@ -35,8 +35,9 @@ reg M_AXIS_TREADY;
 
 initial
 begin
-    #1 frequency = 32'd00040000;
-       amplitude = 32'hFFFFFFFF;
+    #1 frequency = 32'd52428800;
+       //amplitude = 32'd45874;
+       amplitude = 32'd7800;
        M_AXIS_ACLK = 1'b0;
        M_AXIS_TREADY = 1'b1;
   	M_AXIS_ARESETN = 1'b0;
