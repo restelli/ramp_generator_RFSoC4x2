@@ -1,3 +1,0 @@
-#!/bin/bash
-cp ./Simple_RFSoC/Simple_RFSoC.runs/impl_1/main_wrapper.bit main.bit
-cp ./Simple_RFSoC/Simple_RFSoC.gen/sources_1/bd/main/hw_handoff/main.hwh main.hwh
